@@ -4,7 +4,7 @@ OLLAMA_URL = "http://127.0.0.1:11434/api/generate"
 MODEL_NAME = "deepseek-r1:1.5b"
 
 def chat():
-    print("🤖 DeepSeek CLI Chat (type 'exit' to quit)")
+    print("DeepSeek CLI Chat (type 'exit' to quit)")
     while True:
         user_input = input("You: ")
         if user_input.lower() == "exit":
